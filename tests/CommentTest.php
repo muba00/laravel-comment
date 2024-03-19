@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Actuallymab\LaravelComment\Tests;
+namespace Muba00\LaravelComment\Tests;
 
-use Actuallymab\LaravelComment\Models\Comment;
-use Actuallymab\LaravelComment\Tests\Models\Product;
-use Actuallymab\LaravelComment\Tests\Models\User;
+use Muba00\LaravelComment\Models\Comment;
+use Muba00\LaravelComment\Tests\Models\Product;
+use Muba00\LaravelComment\Tests\Models\User;
 use Illuminate\Foundation\Testing\WithFaker;
 
 class CommentTest extends TestCase

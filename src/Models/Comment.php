@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Actuallymab\LaravelComment\Models;
+namespace Muba00\LaravelComment\Models;
 
-use Actuallymab\LaravelComment\Contracts\Commentable;
-use Actuallymab\LaravelComment\HasComments;
+use Muba00\LaravelComment\Contracts\Commentable;
+use Muba00\LaravelComment\HasComments;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

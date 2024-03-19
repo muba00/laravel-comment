@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Actuallymab\LaravelComment;
+namespace Muba00\LaravelComment;
 
 use Illuminate\Support\ServiceProvider;
 

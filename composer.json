@@ -1,17 +1,21 @@
 {
-    "name": "actuallymab/laravel-comment",
+    "name": "muba00/laravel-comment",
     "type": "library",
     "description": "Just another comment system for your awesome Laravel project.",
     "keywords": [
-        "actuallymab",
+        "muba00",
         "laravel-comment"
     ],
-    "homepage": "https://github.com/actuallymab/laravel-comment",
+    "homepage": "https://github.com/muba00/laravel-comment",
     "license": "MIT",
     "authors": [
         {
             "name": "Mehmet Aydin Bahadir",
             "email": "mehmet.aydin.bahadir@gmail.com"
+        },
+        {
+            "name": "Mubariz Hajimuradov",
+            "email": "mubarizhajimuradov@gmail.com"
         }
     ],
     "require": {
@@ -26,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Actuallymab\\LaravelComment\\": "src"
+            "Muba00\\LaravelComment\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Actuallymab\\LaravelComment\\Tests\\": "tests"
+            "Muba00\\LaravelComment\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +49,7 @@
         },
         "laravel": {
             "providers": [
-                "\\Actuallymab\\LaravelComment\\LaravelCommentServiceProvider"
+                "\\Muba00\\LaravelComment\\LaravelCommentServiceProvider"
             ]
         }
     }

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Actuallymab\LaravelComment\Tests\Models;
+namespace Muba00\LaravelComment\Tests\Models;
 
-use Actuallymab\LaravelComment\CanComment;
+use Muba00\LaravelComment\CanComment;
 use Illuminate\Database\Eloquent\Model;
 
 /**

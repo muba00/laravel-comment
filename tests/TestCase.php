@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Actuallymab\LaravelComment\Tests;
+namespace Muba00\LaravelComment\Tests;
 
-use Actuallymab\LaravelComment\LaravelCommentServiceProvider;
+use Muba00\LaravelComment\LaravelCommentServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

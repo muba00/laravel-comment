@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Actuallymab\LaravelComment;
+namespace Muba00\LaravelComment;
 
-use Actuallymab\LaravelComment\Contracts\Commentable;
-use Actuallymab\LaravelComment\Models\Comment;
+use Muba00\LaravelComment\Contracts\Commentable;
+use Muba00\LaravelComment\Models\Comment;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait CanComment
